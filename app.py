@@ -26,7 +26,7 @@ if not st.session_state.get("_page_cfg_done", False):
 # Map KPI -> trained artifact path (we resolve across folders automatically)
 MODEL_MAP = {
     "EUI": "models/ann_model_bundle_output_EUI.pkl",
-    "CD":  "models/rf_model_output_eui_cooling_floor_0.pkl",
+    "CD":  "models/ann_model_bundle_output_eui_cooling_floor_0.pkl",
     "HD":  "models/ann_model_bundle_output_eui_heating_floor_0.pkl",
     "PMV": "models/ann_model_bundle_output_pmv.pkl",
     "PPD": "models/ann_model_bundle_output_ppd.pkl",
@@ -831,4 +831,5 @@ st.markdown("""
 • Baseline chart values come from BASELINES.  
 • Baseline configuration (No insulation / No insulation / Window_Existing) is forced to match BASELINES for display.  
 """, unsafe_allow_html=True)
+
 
