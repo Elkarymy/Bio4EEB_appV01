@@ -1,0 +1,7 @@
+[server]
+maxUploadSize = 200          # MB, adjust if stakeholders upload big Excel files
+headless = true
+
+[theme]
+base = "light"               # or "dark"
+primaryColor = "#1976d2"
