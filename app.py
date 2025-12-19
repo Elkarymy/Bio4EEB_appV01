@@ -31,7 +31,7 @@ MODEL_MAP = {
     "PMV": "models/ann_model_bundle_output_pmv.pkl",
     "PPD": "models/ann_model_bundle_output_ppd.pkl",
 }
-SCALER_PATH = "standard_scaler.pkl"
+SCALER_PATH = "models/standard_scaler.pkl"
 
 BASELINES = {
     "EUI": 154.42,   # kWh/m²·yr
@@ -831,3 +831,4 @@ st.markdown("""
 • Baseline chart values come from BASELINES.  
 • Baseline configuration (No insulation / No insulation / Window_Existing) is forced to match BASELINES for display.  
 """, unsafe_allow_html=True)
+
